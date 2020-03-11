@@ -1,1 +1,7 @@
-module.exports = function(numbers) {};
+module.exports = function(numbers) {
+    let newN = numbers.split('');
+    for(i=0; i<numbers.length; i ++) {
+ newN[i] += 1;
+    }
+return newN;
+};
